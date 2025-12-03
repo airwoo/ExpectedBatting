@@ -1,5 +1,41 @@
+# --- Data files (never commit raw data) ---
+data/
+*.csv
+*.parquet
+*.json
+*.pkl
+*.db
+
+# --- Jupyter Notebook artifacts ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Python cache ---
 __pycache__/
 *.pyc
-.env/
-.envrc
-.ipynb_checkpoints/
+*.pyo
+*.pyd
+*.pkl
+
+# --- Conda environment / virtual environment ---
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# --- Logs ---
+*.log
+
+# --- OS-specific files ---
+Thumbs.db
+.DS_Store
+
+# --- VSCode/editor settings (optional but recommended) ---
+.vscode/
+.idea/
+
+# --- Secrets (just in case) ---
+*.env
+credentials.json
+token.json
